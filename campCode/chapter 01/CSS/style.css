@@ -1,0 +1,35 @@
+body {
+  font-size: 22px;
+  background-color: darkblue;
+  border: 2px solid yellow;
+}
+
+p {
+  color: rgb(255, 255, 255);
+  font-size: 30px;
+  font-size: 18px;
+}
+
+h1,
+h2 {
+  color: Red;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h3 {
+  color: rgb(67, 128, 181);
+  border-color: red;
+  margin: 3px;
+}
+
+p span {
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.875);
+  color: blue;
+}
+.headline {
+  color: cyan;
+  font-style: italic;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
