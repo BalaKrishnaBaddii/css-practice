@@ -1,0 +1,55 @@
+body {
+  /* background-color: black; */
+  background: linear-gradient(to bottom, rgb(25, 128, 202), black);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+h1 {
+  background-image: url("mybackground.jpg");
+  background-size: cover;
+  color: black;
+  background-color: rgb(11, 73, 131);
+  font-weight: bold;
+  text-decoration: dotted;
+  font-family: sans-serif;
+  border-radius: 50px;
+  /* border-color: cadetblue; */
+  border-style: dotted;
+  padding: 8px;
+  text-align: center;
+}
+
+p {
+  color: white;
+  background-color: cornflowerblue;
+  font-family: cursive;
+  border-style: outset;
+  font-size: 15px;
+  border-width: 1px;
+  border-bottom: none;
+  border-left: none;
+  border-color: azure;
+  border-radius: 5px;
+  padding: 5px;
+  background: linear-gradient(
+    to top,
+    rgb(122, 230, 174),
+    to bottom,
+    rgb(6, 7, 6)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#p3 {
+  background-color: rgb(75, 101, 218);
+  color: azure;
+  font-style: italic;
+  font-family: tahoba;
+  font-weight: lighter;
+  background: linear-gradient(to top, rgb(25, 128, 202), black);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
