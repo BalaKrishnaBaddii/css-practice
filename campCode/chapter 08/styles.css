@@ -1,0 +1,45 @@
+body {
+  margin: 0px;
+  padding: 5% 10%;
+  font-size: 1.5rem;
+  font-family: sans-serif monospace;
+  font-weight: 500px;
+  background-color: hsl(210, 100%, 56%, 0.5);
+}
+
+ol {
+  list-style-type: decimal-leading-zero;
+  padding: 3rem;
+  list-style-position: inside; /* it will keep bullets inside*/
+  border: 2px dashed lightslategray;
+  border-radius: 10px;
+  border-bottom-color: aqua;
+  border-bottom-width: 5px;
+  border-bottom-style: groove;
+}
+
+ol li:nth-child(3) {
+  color: rgb(38, 58, 2);
+  font-weight: bold;
+}
+
+ul {
+  list-style-type: square;
+  color: darkcyan;
+  font-weight: 700px;
+  line-height: 1.5;
+  list-style-position: outside;
+  /* list-style-image: url("check.png"); */
+}
+
+ul li:nth-child(even) {
+  /* we can give number as well*/
+  color: lightgray;
+}
+
+ul ::marker {
+  color: darkorange;
+  font-family: fantasy;
+  font-size: 1em;
+  content: "✅";
+}
