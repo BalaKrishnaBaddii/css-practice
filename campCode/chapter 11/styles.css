@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1rem;
+  word-spacing: 0.1rem;
+  font-family: sans-serif, Georgia;
+}
+
+.columns {
+  columns: 3 250px;
+  column-rule: 2px double darkcyan;
+  column-gap: 3rem;
+}
+
+.columns p {
+  margin-top: 0px;
+}
+
+.columns .quote {
+  font-weight: bold;
+  font-size: 3rem;
+  color: orchid;
+  align-items: center;
+  column-span: all;
+  margin-top: 3rem;
+}
+.nowrap {
+  white-space: nowrap;
+}
